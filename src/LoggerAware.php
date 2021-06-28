@@ -23,7 +23,7 @@ trait LoggerAware
      */
     protected function log(string $message, ?int $level = null, string|array|null $channel = null): LoggerAwareInterface
     {
-        $this->logger->log($message, $level, $channel);
+        $this->logger->writeLog($message, $level, $channel);
         return $this;
     }
 }
