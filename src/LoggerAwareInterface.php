@@ -6,5 +6,5 @@ namespace VertigoLabs\LoggerAware;
 
 interface LoggerAwareInterface
 {
-    public function setLogger(callable $logger): void;
+    public function setLogger(LoggerInterface $logger): void;
 }
