@@ -1,0 +1,21 @@
+{
+  "name": "vertigolabs/logger-aware",
+  "description": "logger aware traits",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "James murray",
+      "email": "jaimz@vertigolabs.org"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "VertigoLabs\\LoggerAware\\": "src"
+    }
+  }
+}
