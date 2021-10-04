@@ -5,7 +5,7 @@ namespace VertigoLabs\LoggerAware;
 
 trait LoggerAware
 {
-    private LoggerInterface $logger;
+    protected LoggerInterface $logger;
 
     /**
      * @param LoggerInterface $logger
